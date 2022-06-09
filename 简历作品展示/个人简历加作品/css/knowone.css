@@ -1,0 +1,128 @@
+body {
+    background-color: rgb(255, 250, 254);
+}
+
+.container {
+    /* position: relative; */
+    /*  overflow: hidden; */
+    width: 100%;
+    height: 100vh;
+}
+
+.resume {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+
+}
+
+.resume .resume-left {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    margin-right: 10px;
+    box-shadow: 1px 1px 2px #333;
+}
+
+s .resume .resume-left-top {
+    position: relative;
+    width: 100%;
+    height: 180px;
+    /* border-bottom: rgb(86, 86, 86) 2px solid; */
+
+}
+
+.resume .resume-left-top .heard {
+    position: absolute;
+    margin-top: 10px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+.resume .resume-left-top .heard img {
+    width: 100%;
+    height: 100%;
+
+}
+
+/* 信息 */
+.resume .resume-left-top .inf {
+    position: absolute;
+    top: 25%;
+    left: 2%;
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    color: #333;
+}
+
+.resume .resume-left-top .inf ul li a {
+    font-size: 16px;
+    color: #333;
+}
+
+.resume .resume-left-top .inf ul p {
+    display: block;
+    padding-right: 30px;
+    font-size: 14px;
+    color: rgb(10, 16, 14);
+}
+
+em {
+    font-size: 18px;
+    font-weight: 700 !important;
+}
+
+
+
+
+/* 右边 */
+.resume-right {
+    flex: 1;
+    background-color: rgb(244, 228, 242);
+}
+
+.resume-right .work {
+    width: 100%;
+    height: 100%;
+}
+
+.resume-right .work h2,
+h4 {
+    width: 100%;
+    height: 35px;
+    text-align: center;
+}
+
+.resume-right .work ul {
+
+    display: flex;
+    padding-left: 12px;
+    box-sizing: border-box;
+}
+
+
+.resume-right .work ul li {
+
+    flex: 1;
+    height: 180px;
+
+}
+
+.resume-right .work ul li a {
+    display: block;
+    text-align: center;
+
+}
+
+.resume-right .work ul li img {
+    width: 150px;
+    height: 150px;
+}
